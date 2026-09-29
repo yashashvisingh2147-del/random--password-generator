@@ -7,8 +7,9 @@ Uses Python's `secrets` module for cryptographically secure
 password generation. No data is stored or transmitted.
 """
 
-import secrets
-import string
+import check
+import generate
+import index
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
